@@ -29,7 +29,7 @@ const app = createApp(App).use(VMask).mount("#app");
 <input v-mask="'###-##-##'" />
 ```
 
-### Tokens
+###  Tokens
 
 | Token | Description                |
 | ----- | -------------------------- |
