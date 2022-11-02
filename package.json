@@ -1,0 +1,58 @@
+{
+  "name": "@ssibrahimbas/v-mask",
+  "version": "1.0.0",
+  "description": "mask directive for vue3",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [
+    "mask",
+    "vue",
+    "vue3",
+    "vue-mask",
+    "directive"
+  ],
+  "homepage": "https://github.com/ssibrahimbas/v-mask/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/ssibrahimbas/v-mask/issues",
+    "email": "info@ssibrahimbas.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssibrahimbas/v-mask.git"
+  },
+  "author": "Sami Salih İBRAHİMBAŞ",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "clear": "del-cli ./dist",
+    "build": "npm run clear && tsc",
+    "test:unit": "jest --watchAll --no-cache",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@types/jest": "^29.2.1",
+    "@types/node": "^16.11.43",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "@vue/tsconfig": "^0.1.3",
+    "del-cli": "^5.0.0",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "jest": "^29.2.2",
+    "prettier": "^2.5.1",
+    "ts-jest": "^29.0.3",
+    "typescript": "~4.7.4",
+    "vite": "^2.9.14",
+    "vue": "^3.2.37",
+    "vue-tsc": "^0.38.4"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  }
+}
